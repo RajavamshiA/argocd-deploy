@@ -11,7 +11,7 @@ spec:
   source:
     repoURL: https://github.com/RajavamshiA/argocd-deploy.git
     targetRevision: main   # or a tag/commit hash
-    path: applications        # folder in repo with Kubernetes YAMLs
+    path: .       # folder in repo with Kubernetes YAMLs
   destination:
     server: https://kubernetes.default.svc
     namespace: argocd
